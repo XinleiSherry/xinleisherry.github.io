@@ -1,0 +1,25 @@
+{
+  "name": "nom-init-cs5610project1",
+  "version": "1.0.0",
+  "description": "cs5610project1 package.json",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/XinleiSherry/xinleisherry.github.io.git"
+  },
+  "keywords": [
+    "cs5610project1",
+    "package.json",
+    "npm",
+    "init"
+  ],
+  "author": "Xinlei Hu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XinleiSherry/xinleisherry.github.io/issues"
+  },
+  "homepage": "https://github.com/XinleiSherry/xinleisherry.github.io#readme"
+}
