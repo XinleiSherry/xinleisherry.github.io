@@ -4,7 +4,9 @@
   "description": "cs5610project1 package.json",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "react-scripts test --env=jsdom",
+    "lint:create": "eslint --init",
+    "lint-fix": "eslint --fix"
   },
   "repository": {
     "type": "git",
@@ -21,5 +23,12 @@
   "bugs": {
     "url": "https://github.com/XinleiSherry/xinleisherry.github.io/issues"
   },
-  "homepage": "https://github.com/XinleiSherry/xinleisherry.github.io#readme"
+  "homepage": "https://github.com/XinleiSherry/xinleisherry.github.io#readme",
+  "devDependencies": {
+    "eslint": "^8.24.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.3.0",
+    "eslint-plugin-promise": "^6.0.1"
+  }
 }
